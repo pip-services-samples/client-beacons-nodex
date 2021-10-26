@@ -1,0 +1,25 @@
+{
+  "name": "service-beacons-nodex",
+  "version": "1.0.0",
+  "main": "./obj/src/index.js",
+  "typings": "./obj/src/index.d.ts",
+  "scripts": {
+    "test": "mocha -t 5000 -R spec -u tdd --recursive ./obj/test"
+  },
+  "dependencies": {
+    "pip-services3-commons-nodex": "^1.0.1",
+    "pip-services3-components-nodex": "^1.4.0",
+    "pip-services3-container-nodex": "^1.0.2",
+    "pip-services3-data-nodex": "^1.0.1",
+    "pip-services3-mongodb-nodex": "^1.0.1",
+    "pip-services3-rpc-nodex": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^10.17.26",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "service-beacons-nodex": "git+https://github.com/pip-services-samples/service-beacons-nodex"
+  }
+}
